@@ -32,8 +32,8 @@ dotnet build FederationTextSurface.slnx -c Release
 
 ## 4. Downstream
 
-- Update `guiders-wpf` TextEngine peel (when switched off NuGet)
-- Studio smoke (document zone)
-- Living matrix note + FederationPhase gate if applicable
+- `guiders-wpf` TextEngine peel already references `AIGuiders.TextSurface.Substrate` — rebuild CodeCenter + WPF tests after bump
+- Studio smoke (document zone completion + structural `/` insert)
+- Living matrix `ship-avalonedit-phase4` note + `FederationPhase4ChecklistTests` gate
 
 **Rule:** never commit federation customization into `AI-Guiders/AvalonEdit` — only here (`src/`, `patches/` if added later).
