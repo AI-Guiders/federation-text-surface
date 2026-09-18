@@ -1,0 +1,3 @@
+[submodule "vendor/AvalonEdit"]
+	path = vendor/AvalonEdit
+	url = https://github.com/AI-Guiders/AvalonEdit.git

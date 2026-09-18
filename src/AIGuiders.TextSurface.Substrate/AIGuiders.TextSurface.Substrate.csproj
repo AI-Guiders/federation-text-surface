@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>AIGuiders.TextSurface.Substrate</RootNamespace>
+    <AssemblyName>AIGuiders.TextSurface.Substrate</AssemblyName>
+    <PackageId>AIGuiders.TextSurface.Substrate</PackageId>
+    <Description>Federation TextSurface substrate — vendored AvalonEdit + peel entry types (GUIDERS-ADR-0066 §4.1).</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\vendor\AvalonEdit\ICSharpCode.AvalonEdit\ICSharpCode.AvalonEdit.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\THIRD-PARTY-NOTICES.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>

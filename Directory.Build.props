@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup Condition="$([System.String]::Copy('$(MSBuildProjectDirectory)').Contains('vendor\AvalonEdit')) == false">
+    <LangVersion>14</LangVersion>
+    <Nullable>enable</Nullable>
+    <Authors>AI Guiders</Authors>
+    <Company>AI Guiders</Company>
+    <Product>Federation TextSurface Substrate</Product>
+    <RepositoryUrl>https://github.com/AI-Guiders/federation-text-surface</RepositoryUrl>
+  </PropertyGroup>
+</Project>

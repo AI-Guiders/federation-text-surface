@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AIGuiders.TextSurface.Substrate/AIGuiders.TextSurface.Substrate.csproj" />
+  </Folder>
+</Solution>
