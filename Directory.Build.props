@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup Condition="$([System.String]::Copy('$(MSBuildProjectDirectory)').Contains('vendor\AvalonEdit')) == false">
-    <LangVersion>14</LangVersion>
+    <LangVersion>15</LangVersion>
     <Nullable>enable</Nullable>
     <Authors>AI Guiders</Authors>
     <Company>AI Guiders</Company>
